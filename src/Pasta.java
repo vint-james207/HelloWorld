@@ -16,23 +16,24 @@ public class Pasta {
         return name;
     }
 
-    public String setName (String newName) {
-        return newName;
+    public void setName (String newName) {
+        newName = name;
     }
 
     public String getType () {
         return type;
     }
 
-    public String setType (String newType) {
-        return newType;
+    public void setType (String newType) {
+        newType = type;
     }
 
     public int getQuantity () {
         return quantity;
     }
 
-    public int setNewQuantity (int newQuantity) {
-        return newQuantity;
+    public void setNewQuantity (int newQuantity) {
+        if (newQuantity <= 15)
+            newQuantity = quantity;
     }
 }

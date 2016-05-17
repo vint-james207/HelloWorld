@@ -18,32 +18,33 @@ public class Fruit {
         return color;
     }
 
-    public String setColor (String newColor) {
-        return newColor;
+    public void setColor (String newColor) {
+            newColor = color;
     }
 
     public String getName () {
         return name;
     }
 
-    public String setName (String newName) {
-        return newName;
+    public void setName (String newName) {
+        newName = name;
     }
 
     public boolean getIsFresh() {
         return isFresh;
     }
 
-    public boolean setIsFresh (boolean newIsFresh) {
-        return newIsFresh;
+    public void setIsFresh (boolean newIsFresh) {
+        newIsFresh = isFresh;
     }
 
     public int getQuantity () {
         return quantity;
     }
 
-    public int setNewQuantity (int newQuantity) {
-        return newQuantity;
+    public void setNewQuantity (int newQuantity) {
+        if (newQuantity > 100)
+            newQuantity = quantity;
     }
 }
 

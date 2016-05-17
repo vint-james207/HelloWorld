@@ -18,31 +18,32 @@ public class Game {
         return name;
     }
 
-    public String setName (String newName) {
-        return newName;
+    public void setName (String newName) {
+        newName = name;
     }
 
     public int getCards () {
         return cards;
     }
 
-    public int setNewCards (int newCards) {
-        return newCards;
+    public void setNewCards (int newCards) {
+        newCards = cards;
     }
 
     public int getPlayers () {
         return players;
     }
 
-    public int setNewPlayers (int newPlayers) {
-        return newPlayers;
+    public void setNewPlayers (int newPlayers) {
+        if (newPlayers < 3)
+            newPlayers = players;
     }
 
     public boolean getIsTough () {
         return isTough;
     }
 
-    public boolean setIsTough (boolean newIsFresh) {
-        return newIsFresh;
+    public void setNewIsTough (boolean newIsTough) {
+        newIsTough = isTough;
     }
 }

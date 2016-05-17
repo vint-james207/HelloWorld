@@ -19,31 +19,36 @@ public class Vehicle {
         return name;
     }
 
-    public String setNewName (String newName) {
-        return newName;
+    public void setNewName (String newName) {
+        name= newName;
+
     }
 
     public String getType () {
         return type;
     }
 
-    public String setNewType (String newType) {
-        return newType;
+    public void setNewType (String newType) {
+        type = newType;
     }
 
     public String getColor () {
         return color;
     }
 
-    public String setNewColor (String newColor) {
-        return newColor;
+    public void setNewColor (String newColor) {
+        color = newColor;
     }
 
     public int getYear () {
         return year;
     }
 
-    public int setNewYear (int newYear) {
-        return newYear;
+    public void setNewYear (int newYear) {
+        if (newYear <= 1990)
+            year = newYear;
     }
+
+
+
 }

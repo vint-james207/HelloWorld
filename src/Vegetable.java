@@ -19,16 +19,16 @@ public class Vegetable {
         return name;
     }
 
-    public String setNewName (String newName) {
-        return newName;
+    public void setNewName (String newName) {
+        name = newName;
     }
 
     public String getColor () {
         return color;
     }
 
-    public String setNewColor (String newColor) {
-        return newColor;
+    public void setNewColor (String newColor) {
+        color = newColor;
     }
 
     public String getType () {
@@ -36,16 +36,18 @@ public class Vegetable {
 
     }
 
-    public String setNewType (String newType) {
-        return newType;
+    public void setNewType (String newType) {
+        type = newType;
     }
 
     public int getQuantity () {
         return quantity;
     }
 
-    public int setNewQuantity (int newQuantity) {
-        return newQuantity;
+    public void setNewQuantity (int newQuantity) {
+        if (newQuantity != 10)
+            newQuantity = quantity;
+
     }
 }
 

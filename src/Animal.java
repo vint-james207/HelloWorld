@@ -14,24 +14,25 @@ public class Animal {
 public String getName () {
     return name;
 }
-    public String setName (String newName) {
-        return newName;
+    public void setName (String newName) {
+        name = newName;
         }
 
     public String getSpecies () {
         return species;
     }
 
-    public String setSpecies (String newSpecies) {
-        return newSpecies;
+    public void setSpecies (String newSpecies) {
+        species = newSpecies;
     }
 
     public double getWeight () {
         return weight;
     }
 
-    public double setWeight (double newWeight) {
-        return newWeight;
+    public void setNewWeight (double newWeight) {
+        if (newWeight < 100)
+            weight = newWeight;
     }
 
 }
