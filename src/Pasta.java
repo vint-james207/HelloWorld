@@ -6,4 +6,9 @@ public class Pasta {
     String type;
     int quantity;
 
+    public Pasta (String name, String type, int quantity) {
+        this.name = name;
+        this.type = type;
+        this.quantity = quantity;
+    }
 }
