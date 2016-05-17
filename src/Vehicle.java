@@ -14,4 +14,36 @@ public class Vehicle {
         this.year = year;
 
     }
+
+    public String getName () {
+        return name;
+    }
+
+    public String setNewName (String newName) {
+        return newName;
+    }
+
+    public String getType () {
+        return type;
+    }
+
+    public String setNewType (String newType) {
+        return newType;
+    }
+
+    public String getColor () {
+        return color;
+    }
+
+    public String setNewColor (String newColor) {
+        return newColor;
+    }
+
+    public int getYear () {
+        return year;
+    }
+
+    public int setNewYear (int newYear) {
+        return newYear;
+    }
 }

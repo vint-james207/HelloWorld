@@ -14,4 +14,38 @@ public class Vegetable {
         this.quantity = quantity;
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String setNewName (String newName) {
+        return newName;
+    }
+
+    public String getColor () {
+        return color;
+    }
+
+    public String setNewColor (String newColor) {
+        return newColor;
+    }
+
+    public String getType () {
+        return type;
+
+    }
+
+    public String setNewType (String newType) {
+        return newType;
+    }
+
+    public int getQuantity () {
+        return quantity;
+    }
+
+    public int setNewQuantity (int newQuantity) {
+        return newQuantity;
+    }
 }
+

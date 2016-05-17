@@ -13,4 +13,37 @@ public class Fruit {
         this.isFresh = isFresh;
         this.quantity = quantity;
     }
+
+    public String getColor () {
+        return color;
+    }
+
+    public String setColor (String newColor) {
+        return newColor;
+    }
+
+    public String getName () {
+        return name;
+    }
+
+    public String setName (String newName) {
+        return newName;
+    }
+
+    public boolean getIsFresh() {
+        return isFresh;
+    }
+
+    public boolean setIsFresh (boolean newIsFresh) {
+        return newIsFresh;
+    }
+
+    public int getQuantity () {
+        return quantity;
+    }
+
+    public int setNewQuantity (int newQuantity) {
+        return newQuantity;
+    }
 }
+

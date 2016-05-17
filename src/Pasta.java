@@ -11,4 +11,28 @@ public class Pasta {
         this.type = type;
         this.quantity = quantity;
     }
+
+    public String getName () {
+        return name;
+    }
+
+    public String setName (String newName) {
+        return newName;
+    }
+
+    public String getType () {
+        return type;
+    }
+
+    public String setType (String newType) {
+        return newType;
+    }
+
+    public int getQuantity () {
+        return quantity;
+    }
+
+    public int setNewQuantity (int newQuantity) {
+        return newQuantity;
+    }
 }
