@@ -8,12 +8,25 @@ public class Email {
     String destination;
     int time;
 
+    @Override
+    public String toString() {
+        return "Email{" +
+                "author=" + author +
+                ", subject='" + subject + '\'' +
+                ", body='" + body + '\'' +
+                ", destination='" + destination + '\'' +
+                ", time=" + time +
+                '}';
+    }
+
     public Email(Person author, String subject, String body, String destination, int time) {
         this.author = author;
         this.subject = subject;
         this.body = body;
         this.destination = destination;
         this.time = time;
+
+
 
     }
 
