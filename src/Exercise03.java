@@ -20,7 +20,7 @@ public class Exercise03 {
         for (String name : names) {
             newNames.add(name.toUpperCase());
         }
-        for (int 1 = 0), i < newNames.size(); i++ {
+        for (int i = 0; i < newNames.size(); i++) {
             String name = newNames.get(i);
             if (!name.startsWith("A")) {
                 newNames.remove(i);
@@ -32,7 +32,11 @@ public class Exercise03 {
         //solution 2: use temporary collections
         newNames = new ArrayList<>();
         for (String name : names) {
-            if (names.startsWith("A")) {
+            newNames.add(name.toUpperCase());
+        }
+        ArrayList<String> tempNames = new ArrayList<>();
+        for (String name : newNames) {
+            if (name.startsWith("A")) {
                 tempNames.add(name);
             }
         }
